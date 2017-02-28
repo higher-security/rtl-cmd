@@ -1,0 +1,2 @@
+rtl_power -f 24M:1700M:1M  - | tee ${@:-/tmp/rtl_power-wide-$(date +%d-%m-%Y_%H-%M-%S).csv}
+

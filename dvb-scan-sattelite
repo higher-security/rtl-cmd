@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+ls /usr/share/dvb/dvb-s/
+echo -n "
+Give name: "
+read a
+scan  /usr/share/dvb/dvb-s/$a
+

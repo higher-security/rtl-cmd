@@ -1,0 +1,2 @@
+rtl_power -f 88M:108M:125k - | tee ${@:-/tmp/rtl_power-fm-$(date +%d-%m-%Y_%H-%M-%S).csv} 
+

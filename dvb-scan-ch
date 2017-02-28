@@ -1,0 +1,8 @@
+echo "######################### All ############################"
+scan /usr/share/dvb/dvb-t/ch-All
+echo "######################### Citycable ############################"
+scan /usr/share/dvb/dvb-t/ch-Citycable
+echo "######################### Geneva ############################"
+scan /usr/share/dvb/dvb-t/ch-Geneva
+
+

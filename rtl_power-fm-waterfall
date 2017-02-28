@@ -1,0 +1,6 @@
+#!/bin/bash
+DURATION=5m
+FILE=${@:-/tmp/rtl_power-fm-$(date +%d-%m-%Y_%H-%M-%S).csv}
+
+(rtl_power -i $DURATION -f 88M:108M:125k $FILE ; python heatmap.py $FILE $FILE.jpg; eog $FILE.jpg ) >/dev/null 2>&1 &
+

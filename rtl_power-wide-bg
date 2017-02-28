@@ -1,0 +1,2 @@
+nohup rtl_power -f 24M:1700M:1M ${@:-/tmp/rtl_power-wide-$(date +%d-%m-%Y_%H-%M-%S).csv} >/dev/null 2>&1 &
+
